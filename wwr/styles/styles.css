@@ -1,3 +1,10 @@
+
+/* import font will always be at the top of css code */
+/* fonts are Poppin, Open Sans, Lora, and Roboto */
+/* main fonts are Poppin and Open Sans */
+/* Back up fonts are Lora and Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&family=Poppins:wght@500&family=Roboto&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +14,7 @@ nav a {
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -23,6 +31,10 @@ main section {
 
 body {
     background-color: #FFFFFF;
+    font-family: 'Open Sans', Roboto, 'Times New Roman';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -38,6 +50,13 @@ a.book, a.join {
     background-color: #d9d9d9;
     color:#545454;
     text-decoration: none;
+    font-size: 18px;
+}
+
+.book, .join {
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 a.book:hover, a.join:hover {
@@ -45,8 +64,12 @@ a.book:hover, a.join:hover {
     color: black;
 }
 
+/* main font = poppins, back up fonts = lora and verdana */
 .home-title {
     color:#545454;
+    font-family: Poppins, Lora, Verdana;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -56,23 +79,37 @@ h4 {
 #background {
     height: 725px;
     background-color: #545454;
+    margin-top: 200px;
 }
 
 .msg {
     background-color: #d9d9d9;
+    line-height: 1.5em;
+    padding: 35px;
+    margin: 200px;
 }
 
+h2 {
+    margin: 0;
+}
+
+/* main font = poppins, back up fonts = lora and verdana */
 .msg h2 {
     color: #545454;
+    font-family: Poppins, Lora, Verdana;
 }
 
 .msg p {
     color: #545454;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
+    padding: 25px 50px;
     background-color: #545454;
-    color: #FFFFFF
+    color: #FFFFFF;
+    margin-top: 200px;
 }
 
 footer p {
@@ -92,14 +129,39 @@ footer a:hover {
     color: #ACACAC;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo {
     width: 80px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #545454;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains {
+    margin-top: 100px;
 }
