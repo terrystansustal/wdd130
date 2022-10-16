@@ -47,8 +47,8 @@ nav a:hover {
 }
 
 a.book, a.join {
-    background-color: #d9d9d9;
-    color:#545454;
+    background-color: #545454;
+    color: white;
     text-decoration: none;
     font-size: 18px;
 }
