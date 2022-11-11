@@ -233,6 +233,229 @@ main section img {
     box-shadow: 5px 5px 10px black;
 }
 
+
+
+/* CSS for rates.html */
+
+/* classes */
+
+.sidebar {
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* position: fixed; */
+    z-index: 1;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: #545454;
+    /* overflow-x: scroll; */
+    height: auto;
+    padding: 8px 0;
+    grid-column: 1/2;
+    grid-row: 1/10;
+}
+
+.font-sidebar {
+    font-family: 'Open Sans', Roboto, 'Times New Roman';
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    margin-left: 10px;
+}
+
+.headings-sidebar {
+    font-family: Poppins, Lora, Verdana;
+    font-size: 23px;
+    padding-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.img-sidebar {
+    /* width: 280px;
+    height: auto;
+    margin-top: 90px;
+    align-items: center; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 280px;
+    border: 2px solid white;
+}
+
+.vertical-line {
+    border-top: 2px solid white;
+    padding: 10px;
+    height: 10px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rates-font {
+    font-family: 'Open Sans', Roboto, 'Times New Roman';
+    font-size: 25px;
+    color: #545454;
+}
+
+.river-img {
+    border: 5px solid #D9D9D9;
+    border-radius: 10px;
+    width: 500px;
+    transition: transform .2s;
+    box-shadow: 5px 5px 10px black;
+}
+
+/* .river-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+} */
+
+.river-ul {
+    margin-left: 530px;
+    /* margin-right: -100px; */
+    opacity: 1;
+    font-family: 'Open Sans', Roboto, 'Times New Roman';
+    color: white;
+}
+   
+
+
+/* ID */
+
+#second-page-home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#join-fun-h {
+    font-family: Poppins, Lora, Verdana;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+/* #img-sidebar {
+    width: 280px;
+    height: auto;
+    margin-top: 90px;
+    align-items: center;
+    border: 2px solid white;
+} */
+
+#contact-us-sidebar {
+    font-family: Poppins, Lora, Verdana;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+#rates-ul {
+    margin-left: 100px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#rates-h {
+    font-family: Poppins, Lora, Verdana;
+    font-size: 50px;
+    color: #545454;
+}
+
+#river-one {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+#river-one-h {
+    margin-top: -380px;
+    margin-left: 530px;
+    font-family: Poppins, Lora, Verdana;
+    color: white;
+}
+
+#river-one-bg {
+    height: 420px;
+    width: 950px;
+    background-color: #545454;
+    grid-column: 3/4;
+    grid-row: 5/6;
+    margin: 50px;
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+
+#river-two {
+    grid-column: 3/4;
+    grid-row: 7/8;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 100px;
+    z-index: 1;
+}
+
+#river-two-h {
+    margin-top: -320px;
+    margin-left: 530px;
+    font-family: Poppins, Lora, Verdana;
+    color: white;
+}
+
+#river-two-bg {
+    height: 420px;
+    width: 950px;
+    background-color: #545454;
+    grid-column: 3/4;
+    grid-row: 7/8;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+#river-three {
+    grid-column: 3/4;
+    grid-row: 9/10;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 100px;
+    z-index: 1;
+}
+
+#river-three-h {
+    margin-top: -300px;
+    margin-left: 530px;
+    font-family: Poppins, Lora, Verdana;
+    color: white;
+}
+
+#river-three-bg {
+    height: 380px;
+    width: 950px;
+    background-color: #545454;
+    grid-column: 3/4;
+    grid-row: 9/10;
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -273,4 +496,124 @@ main section img {
     footer {
         margin-top: 25px;
     }
+
+    /* CSS for rates.html */
+
+    #second-page-home-grid {
+        display: block;
+        height: auto;
+    }
+
+    #rates-ul {
+        margin-left: 0px;
+    }
+
+    #rates-h {
+        font-size: 30px;
+    }
+
+    .rates-font {
+        font-size: 20px;
+    }
+
+    .sidebar {
+        width: 450px;
+        margin-left: 20px;
+        margin-top: 20px;
+        z-index: 1;
+        border-radius: 25px;
+        border: 1px solid black;
+        background-color: #545454;
+        overflow: scroll;
+        height: 200px;
+        padding: 8px 0;
+    }
+
+    .river-img {
+        border: 5px solid #D9D9D9;
+        border-radius: 10px;
+        width: 250px;
+        margin-left: -60px;
+        margin: auto;
+    }
+
+    #river-one {
+        margin-top: -520px;
+    }
+
+    #river-one-h {
+        margin-top: 10px;
+        margin-left: -140px;
+        font-family: Poppins, Lora, Verdana;
+        font-size: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+    }
+
+    .river-ul-zoom {
+        margin-left: -30px;
+        font-size: 20px;
+    }
+
+    #river-one-bg {
+        height: 500px;
+        width: 450px;
+        background-color: #545454;
+        margin-top: 60px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+
+    #river-two {
+        margin-top: -430px;
+    }
+
+    #river-two-h {
+        margin-top: 10px;
+        margin-left: -140px;
+        font-family: Poppins, Lora, Verdana;
+        font-size: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+    }
+
+    #river-two-bg {
+        height: 450px;
+        width: 450px;
+        background-color: #545454;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+
+    #river-three {
+        margin-top: -525px;
+        margin-bottom: 150px;
+    }
+
+    #river-three-h {
+        margin-top: 10px;
+        margin-left: -140px;
+        font-family: Poppins, Lora, Verdana;
+        font-size: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+    }
+
+    #river-three-bg {
+        height: 450px;
+        width: 450px;
+        background-color: #545454;
+        margin-top: 95px;
+        margin-bottom: 100px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+
 }
