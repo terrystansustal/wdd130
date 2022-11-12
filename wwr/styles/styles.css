@@ -519,7 +519,7 @@ main section img {
 
     .sidebar {
         width: 350px;
-        margin-left: 0px;
+        margin-left: 20px;
         margin-top: 20px;
         z-index: 1;
         border-radius: 25px;
