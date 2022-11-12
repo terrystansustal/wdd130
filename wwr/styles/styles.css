@@ -540,7 +540,7 @@ main section img {
 
     #river-one {
         margin-top: -520px;
-        margin-left: 40px;
+        margin-left: 60px;
     }
 
     #river-one-h {
@@ -564,13 +564,13 @@ main section img {
         width: 350px;
         background-color: #545454;
         margin-top: 60px;
-        margin-left: 0px;
+        margin-left: 20px;
         border-radius: 10px;
     }
 
     #river-two {
         margin-top: -430px;
-        margin-left: 40px;
+        margin-left: 60px;
     }
 
     #river-two-h {
@@ -589,13 +589,13 @@ main section img {
         width: 350px;
         background-color: #545454;
         margin-top: 20px;
-        margin-left: 0px;
+        margin-left: 20px;
         border-radius: 10px;
     }
 
     #river-three {
         margin-top: -570px;
-        margin-left: 40px;
+        margin-left: 60px;
         margin-bottom: 150px;
     }
 
@@ -616,7 +616,7 @@ main section img {
         background-color: #545454;
         margin-top: 95px;
         margin-bottom: 100px;
-        margin-left: 0px;
+        margin-left: 20px;
         border-radius: 10px;
     }
 
