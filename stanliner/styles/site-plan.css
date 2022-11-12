@@ -15,11 +15,11 @@ Fonts are separated by a | */
   --paragraph-font: "Times New Roman";
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #B14347; /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
+  --paragraph-background-color: #1E7145  ;
   --nav-link-color: #FFFFFF;
   --nav-background-color: #1E7145;
   --nav-hover-link-color: white;
@@ -178,4 +178,11 @@ nav a:hover {
 .images {
   width: 300px;
   padding: 10px;
+}
+
+.wireframe-layout {
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
