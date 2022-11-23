@@ -5,25 +5,25 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #1E7145 ;
-  --secondary-color: #FFFFFF ;
-  --accent1-color: #B14347;
-  --accent2-color: #0D0909;
+  --primary-color: #415A77 ;
+  --secondary-color: #1B263B ;
+  --accent1-color: #778DA9;
+  --accent2-color: #E0E1DD;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Playfair Display";
   --paragraph-font: "Times New Roman";
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #B14347; /* headlines on a white background */ 
+  --headline-color-on-white: #778DA9; /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #1E7145  ;
-  --nav-link-color: #FFFFFF;
-  --nav-background-color: #1E7145;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #B14347;
+  --paragraph-background-color: #415A77  ;
+  --nav-link-color: white;
+  --nav-background-color: #415A77;
+  --nav-hover-link-color: #E0E1DD;
+  --nav-hover-background-color: #778DA9;
 }
 
 
@@ -83,16 +83,19 @@ p {
 
 .primary {
   background-color: var(--primary-color);
+  color: white;
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: white;
 }
 .accent1 {
   background-color: var(--accent1-color);
+  color: white;
 }
 .accent2{
   background-color: var(--accent2-color);
-  color: white;
+  color: black;
 }
 
 p.colored {
