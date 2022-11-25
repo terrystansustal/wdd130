@@ -5,101 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stan Liner | Home</title>
-    <!-- <link> -->
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <!-- Header of the homepage -->
-    <header>
-        <a href="index.html">
-            <img src="images/stanlineroriginal.png" alt="Logo of bus company" >
-        </a>
+    <div id="content">
+        <!-- Header of the homepage -->
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/naic-liner.png" alt="Logo of bus company" >
+            </a>
 
-        <nav>
-            <a href="index.html">Homepage</a>
-            <a href="rates.html">Rates</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="contactus.html">Contact Us</a>
-        </nav>
-    </header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="rates.html">Rates</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
 
-    <!-- Hero image -->
-    <div>
-        <img src="images/home-page/hero-img.jpg" alt="Image of a bus">
+        <!-- Hero image -->
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/home-page/hero-img.jpg" alt="Image of a bus">
+            </div>
 
-        <section>
-            <h1>Welcome to Stan Liner</h1>
-            <h4>Ride along with us!</h4>
-        </section>
-    </div>
+            <section id="hero-msg">
+                <h1 id="home-title">WELCOME TO NAIC LINER - RIDE ALONG WITH US!</h1>
+                <!-- <h4 id="hero-h4">Ride along with us!</h4> -->
+            </section>
+            <div id="background-hero"></div>
+        </div>
 
-    <main>
-        <!-- Hover image one
-        https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade  -->
-        <section>
-            <div>
-                <img src="images/home-page/christmas-toy-drive.jpg" alt="#">
-                <div>Over the past year, Stan Liner has donated $10,000+ to charitable organizations.
+        <main id="home-grid">
+            <!-- Hover image one
+            https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade  -->
+
+            <div id="background"></div>
+            <h1 id="latest-news-h1">Latest News from Naic Liner</h1>
+            <section id="article-one">  
+                <img class="article-img" src="images/home-page/christmas-toy-drive.jpg" alt="#">
+                <!-- <div>Over the past year, Stan Liner has donated $10,000+ to charitable organizations.
                     The company has assisted citizens who were victims to natural disasters and provided
                     funds to research companies to look for cures to diseases such as cancer.
                     This upcoming holiday season, Stan Liner is hosting a Toy Drive to give back to the children
                     in the community. This will be held at Naic, Cavite Plaza on December 17, 2022.
-                </div>
-            </div>
-            <h3>Christmas Charity Event</h3>
-        </section>
+                </div> -->
+                <h3 class="article-h" id="article-h-one">Christmas Charity Event</h3>
+            </section>
 
-        <!-- Hover image two -->
-        <section>
-            <div>
-                <img src="images/home-page/facemasks.jpg" alt="#">
-                <div>In the first quarter of 2020, we required our passengers to wear a face mask
+            <!-- Hover image two -->
+            <section id="article-two"> 
+                <img class="article-img" src="images/home-page/facemasks.jpg" alt="#">
+                <!-- <div>In the first quarter of 2020, we required our passengers to wear a face mask
                     for their own and other people's safety due to Covid-19. With the new restrictions
                     of the government, we are pleased to announce that wearing a face mask is now voluntarily.
                     We highly encourage those who has a cold/fever to wear a face mask to prevent from spreading
                     a disease/virus. This new policy will be implemented on November 1, 2022.
-                </div>
-            </div>
-            <h3>Face Mask Policy</h3>
-        </section>
+                </div> -->
+                <h3 class="article-h" id="article-h-two">Face Mask Policy</h3>
+            </section>
 
-        <!-- Hover image 3 -->
-        <section>
-            <div>
-                <img src="images/home-page/hiring.jpg" alt="#">
-                <div>Are you looking for a new job to enhance and craft your career? Do you think you got
+            <!-- Hover image 3 -->
+            <section id="article-three">  
+                <img class="article-img" src="images/home-page/hiring.jpg" alt="#">
+                <!-- <div>Are you looking for a new job to enhance and craft your career? Do you think you got
                     what it takes to serve the community? Stan Liner is hiring! For more information,
                     please contact us through our email: hiring@stanliner.com
-                </div>
+                </div> -->
+                <h3 class="article-h" id="article-h-three">Career</h3>
+            </section>
+
+            <div id="indoor-bus-img">
+                <img class="bus-imgs" src="images/home-page/indoor-bus.jpg" alt="Image of inside a bus">
             </div>
-            <h3>Career</h3>
-        </section>
+            <div id="indoor-bus-img2">
+                <img class="bus-imgs" src="images/home-page/indoor-bus-2.jpg" alt="Image of inside a bus">
+            </div>
+                <p id="img-paragraph">Many people from Naic, Cavite needs public transportation in order to get to work or school in Manila.
+                    The bus ride going to Manila is about an hour. The route starts at Ternate, Cavite to PITX, Pasay.
+                    For most passengers this is the only fastest and safest bus route to get to Manila.
+                </p>
 
-        <div>
-            <img src="images/home-page/route-home-page.jpg" alt="Image of bus route">
-            <p>Many people from Naic, Cavite needs public transportation in order to get to work or school in Manila.
-                The bus ride going to Manila is about an hour. The route starts at Ternate, Cavite to PITX, Pasay.
-                For most passengers this is the only fastest and safest bus route to get to Manila.
-            </p>
-        </div>
+        </main>
 
-    </main>
+        <footer>
+            <p>Stan Liner &copy; 2022 - Terrystan N. Sustal</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contactus.html" >Contact Us</a></p>
 
-    <footer>
-        <p>Stan Liner &copy; 2022 - Terrystan N. Sustal</p>
-        <p><a href="site-plan.html">Site Plan</a></p>
-        <p><a href="contactus.html" >Contact Us</a></p>
-
-        <!-- Social Media -->
-        <a href="https://facebook.com" target="_blank">
-            <img src="images/footer/facebook.png" alt="Image of Facebook icon">
-        </a>
-        <a href="https://twitter.com" target="_blank">
-            <img src="images/footer/twitter.png" alt="Image of Twitter icon">
-        </a>
-        <a href="https://instagram.com" target="_blank" >
-            <img src="images/footer/instagram.png" alt="Image of Instagram icon">
-        </a>
-
-    </footer>
+            <!-- Social Media -->
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/footer/facebook.png" alt="Image of Facebook icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/footer/twitter.png" alt="Image of Twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank" >
+                <img src="images/footer/instagram.png" alt="Image of Instagram icon">
+            </a>
+        </footer>
+    </div>
 </body>
 </html>
