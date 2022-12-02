@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Lora&family=Playfair+Display:wght@500&display=swap');
 
-/* CSS FOR HOMEPAGE */
+                                        /* CSS FOR HOMEPAGE */
 
 /* BODY - TO REMOVE WHITE SPACE ON LEFT AND RIGHT SIDE OF WEBSITE */
 body {
@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-/* HEADER */
+        /* HEADER */
 nav {
     display: flex;
     justify-content: space-around;
@@ -64,12 +64,12 @@ footer a:hover {
 
 /* THIS IS WHERE YOU CODE CLASSES*/
 
-/* HEADER CLASS */
+        /* HEADER CLASS */
 .logo {
     width: 100px;
 }
 
-/* ARTICLE CLASS */
+        /* ARTICLE CLASS */
 
 .article-img {
     width: 350px;
@@ -84,7 +84,7 @@ footer a:hover {
     color: white;
 }
 
-/* INDOOR BUS IMGS */
+        /* INDOOR BUS IMGS */
 .bus-imgs {
     width: 200px;
     height: 300px;
@@ -92,21 +92,21 @@ footer a:hover {
     border-radius: 10px;
 }
 
-/* THIS IS WHERE YOU CODE ID'S */
+        /* THIS IS WHERE YOU CODE ID'S */
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-/* HEADER ID'S */
+        /* HEADER ID'S */
 #logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
 
-/* HERO IMAGE ID*/
+        /* HERO IMAGE ID*/
 
 #hero {
     display: grid;
@@ -164,7 +164,7 @@ footer a:hover {
 }
 
 
-/* MAIN CONTENT ID'S */
+        /* MAIN CONTENT ID'S */
 
 #home-grid {
     display: grid;
@@ -191,7 +191,7 @@ footer a:hover {
     color: white;
 }
 
-/* ARTICLE ID'S */
+        /* ARTICLE ID'S */
 
 #article-one {
     margin: 200px 0;
@@ -234,6 +234,99 @@ footer a:hover {
     margin-top: -50px;
     color: #1B263B;
     font-size: 30px;
+}
+
+                                        /* CSS FOR ABOUT US PAGE */
+
+        /* CLASSES */
+
+.stories-imgs {
+    width: 500px;
+    border: 5px solid #1B263B;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px black;
+}
+
+.stories-imgs:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.header-story {
+    font-family: "Playfair Display", Lora, "Amiri Quran";
+    font-size: 30px;
+}
+
+.para-story {
+    font-size: 25px;
+    text-align: left;
+}
+
+        /* ID'S */
+
+#second-page-home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#about-naic-h1 {
+    font-family: "Playfair Display", Lora, "Amiri Quran";
+    font-size: 40px;
+}
+
+#about-naic-h1-grid {
+    grid-column: 4/6;
+    grid-row: 1;
+    margin-left: 300px;
+}
+
+#first-story-img-grid {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+#first-story-grid {
+    grid-column: 4;
+    grid-row: 1;
+    margin-top: 150px;
+    margin-left: -20px;
+    text-align: center;
+}
+
+#second-story-img-grid {
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#second-story-grid {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#third-story-img-grid {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#third-story-grid {
+    grid-column: 4;
+    grid-row: 3/5;
+    margin-top: 120px;
+    margin-left: -20px;
+    text-align: center;
+}
+
+#stories-img-success {
+    height: 500px;
 }
 
 
@@ -355,4 +448,70 @@ footer a:hover {
         border: 2px solid #415A77;
         border-radius: 10px;
     }
+
+                                        /* CSS FOR ABOUT US @ MEDIA SCREEN */
+
+    #about-naic-h1 {
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: -600px;
+    }
+
+    .header-story {
+        font-size: 25px;
+    }
+    .para-story {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .stories-imgs {
+        width: 350px;
+    }
+
+    #story-img-goal-vision {
+        margin-left: 10px;
+    }
+
+    #header-goal-vision {
+        margin-top: 300px;
+        margin-left: -550px;
+    }
+
+    #para-goal-vision {
+        width: 400px;
+        margin-left: -380px;
+    }
+
+    #story-img-early-days {
+        margin-left: -485px;
+        margin-top: -10px;
+    }
+
+    #header-early-days {
+        margin-top: 300px;
+        margin-left: -15px;
+    }
+
+    #para-early-days {
+        width: 400px;
+    }
+
+    #stories-img-success {
+        margin-top: -50px;
+        margin-left: 20px;
+    }
+
+    #header-success {
+        margin-top: 500px;
+        margin-left: -520px;
+    }
+
+    #para-success {
+        margin-top: 30px;  
+        margin-left: -380px;
+        width: 400px;
+    }
+
+
 }
