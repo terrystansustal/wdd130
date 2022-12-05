@@ -5,81 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naic Liner | Rates</title>
-    <!-- <link> -->
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <!-- Header of the homepage -->
-    <header>
-        <a href="index.html">
-            <img src="images/stanlineroriginal.png" alt="Logo of bus company" >
-        </a>
+    <div id="content">
+        <!-- Header of the homepage -->
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/naic-liner.png" alt="Logo of bus company" >
+            </a>
 
-        <nav>
-            <a href="index.html">Homepage</a>
-            <a href="rates.html">Rates</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="contactus.html">Contact Us</a>
-        </nav>
-    </header>
+            <nav>
+                <a href="index.html">Homepage</a>
+                <a href="rates.html">Rates</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
 
 
-    <main>
-       
-        <section>
-            <h1>Bus schedule</h1>
-            <img src="images/rates/schedule.jpg" alt="Image of bus schedule">
-        </section>
+        <main id="third-page-grid">
+            
+            <!-- Bus schedule -->
+            <section id="bus-schedule-header-grid">
+                <h1 class="headers-rates">Bus schedule</h1>
+            </section>
+            <div id="schedule-img-grid">
+                <img class="map-schedule-imgs" src="images/rates/schedule.jpg" alt="Image of bus schedule">
+            </div>
 
-        <section>
-            <h1>Map</h1>
-            <img src="images/rates/map.jpg" alt="Image of bus route">
-        </section>
+            <!-- Map of route -->
+            <section id="map-header-grid">
+                <h1 class="headers-rates">Map</h1>
+            </section>      
+            <div id="map-img-grid">
+                <img class="map-schedule-imgs" src="images/rates/map.jpg" alt="Image of bus route">
+            </div>
 
-        <section>
-            <h3>Bus Fare</h3>
-            <p>Please take note that the fare will vary
-                depending on the age of the passenger. Check the information
-                below for bus fare.
-            </p>
-            <ul>
-                <li>65 years old and above: $1.00</li>
-                <li>Adults (ages 18 - 64): $2.25</li>
-                <li>Youth (ages 12-17): $1.25</li>
-                <li>Children (ages 5 - 12) $1.00</li>
-            </ul>
-        </section>
+            <!-- Bus fare -->
+            <section id="bus-fare-grid">
+                <h3 class="headers-rates">Bus Fare</h3>
+                <p class="unified-p">Please take note that the fare will vary
+                    depending on the age of the passenger. Check the information
+                    below for bus fare.
+                </p>
 
-        <section>
-            <h1>Inquiry for Rent</h1>
-            <p>Stan Liner is open to companies who are looking for buses
-                for their trips. The pricing of the bus rental will depend on the location
-                and the number of buses that will be rented. If you would like to inquire, please
-                contact us through our email or phone number.
-            </p>
+                <ul class="unified-p">
+                    <li>65 years old and above: $1.00</li>
+                    <li>Adults (ages 18 - 64): $2.25</li>
+                    <li>Youth (ages 12-17): $1.25</li>
+                    <li>Children (ages 5 - 12) $1.00</li>
+                </ul>
+            </section>
 
-            <h4>Contact information</h4>
-            <p>Phone number: 1(909)-593-1379</p>
-            <p>Email address: busrental@stanliner.com</p>
-        </section>
+            <div id="background-rates"></div>
+            <div id="vertical-line"></div>
+            <section id="inquiry-grid">
+                <h1 class="last-header">Inquiry for Rent</h1>
+                <p class="last-content-font">Naic Liner is open to companies who are looking for buses
+                    for their trips. The pricing of the bus rental will depend on the location
+                    and the number of buses that will be rented. If you would like to inquire, please
+                    contact us through our email or phone number.
+                </p>
+            </section>
 
-    </main>
+            <section id="contact-info-grid">
+                <h4 class="last-header">Contact information</h4>
+                <p class="last-content-font">Phone number: 1(909)-593-1379</p>
+                <p class="last-content-font">Email address: busrental@naicliner.com</p>
+                <p class="last-content-font">Address: Naic, Cavite 4110</p>
+            </section>
 
-    <footer>
-        <p>Stan Liner &copy; 2022 - Terrystan N. Sustal</p>
-        <p><a href="site-plan.html">Site Plan</a></p>
-        <p><a href="contactus.html" >Contact Us</a></p>
+        </main>
 
-        <!-- Social Media -->
-        <a href="https://facebook.com" target="_blank">
-            <img src="images/footer/facebook.png" alt="Image of Facebook icon">
-        </a>
-        <a href="https://twitter.com" target="_blank">
-            <img src="images/footer/twitter.png" alt="Image of Twitter icon">
-        </a>
-        <a href="https://instagram.com" target="_blank" >
-            <img src="images/footer/instagram.png" alt="Image of Instagram icon">
-        </a>
+        <footer>
+            <p>Stan Liner &copy; 2022 - Terrystan N. Sustal</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contactus.html" >Contact Us</a></p>
 
-    </footer>
+            <!-- Social Media -->
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/footer/facebook.png" alt="Image of Facebook icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/footer/twitter.png" alt="Image of Twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank" >
+                <img src="images/footer/instagram.png" alt="Image of Instagram icon">
+            </a>
+
+        </footer>
+    </div>
 </body>
 </html>

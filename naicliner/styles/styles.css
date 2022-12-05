@@ -329,8 +329,106 @@ footer a:hover {
     height: 500px;
 }
 
+                                        /* RATES PAGE */
+
+/* CLASSES */
+.headers-rates {
+    font-family: "Playfair Display", Lora, "Amiri Quran";
+    font-size: 30px;
+}
+
+.map-schedule-imgs {
+    width: 600px;
+    border: 5px solid #415A77;
+    border-radius: 10px;
+}
+
+.unified-p {
+    font-size: 20px;
+    color: black;
+}
+
+.last-header {
+    color: white;
+    font-size: 30px;
+}
+
+.last-content-font {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
 
 
+/* ID'S */
+
+#third-page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#bus-schedule-header-grid {
+    grid-column: 2/4;
+    grid-row: 1;
+    margin-left: 200px
+}
+
+#schedule-img-grid {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: -20px;
+}
+
+#map-header-grid {
+    grid-column: 6/8;
+    grid-row: 1;
+    margin-left: 50px;
+}
+
+#map-img-grid {
+    grid-column: 6/8;
+    grid-row: 2;
+    margin-left: -220px;
+    padding-top: 15px;
+}
+
+#background-rates {
+    background-color: #778DA9;
+    grid-column: 1/10;
+    grid-row: 5;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+#vertical-line {
+    border-left: 5px solid white;
+    height: 250px;
+    grid-column: 3;
+    grid-row: 5;
+    margin-left: 25px;
+    margin-top: 75px;
+}
+
+#bus-fare-grid {
+    grid-column: 2;
+    grid-row: 4;
+    margin-top: 20px;
+}
+
+#inquiry-grid {
+    grid-column: 2;
+    grid-row: 5;
+    width: 520px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#contact-info-grid {
+    grid-column: 4/10;
+    grid-row: 5;
+    margin-top: 50px;
+    margin-left: 100px;
+}
 
 @media screen and (max-width: 900px) {
 
@@ -513,5 +611,70 @@ footer a:hover {
         width: 400px;
     }
 
+                                            /* CSS FOR RATES @ MEDIA SCREEN */
+    .map-schedule-imgs {
+        width: 400px;
+    }
+
+    #bus-schedule-header-grid {
+        margin-left: 100px;
+    }
+
+    #schedule-img-grid{
+        margin-left: -15px;
+        margin-top: -350px;
+    }
+
+    #map-header-grid {
+        margin-left: -520px;
+        margin-top: 350px;
+    }
+
+    #map-img-grid {
+        margin-left: -700px;
+        margin-top: -10px;
+    }
+    
+    #bus-fare-grid {
+        margin-left: -50px;
+    }
+
+    .unified-p {
+        font-size: 20px;
+        width: 500px;
+    }
+
+    #background-rates {
+        width: 600px;
+        height: 600px;
+        margin-left: -100px;
+    }
+
+    #vertical-line {
+        border-bottom: 5px solid white;
+        border-left: 0;
+        width: 300px;
+        margin-left: -500px;
+        margin-top: 80px;
+    }
+
+    #inquiry-grid {
+        margin-left: -10px;
+    }
+
+    .last-header {
+        font-size: 30px;
+    }
+
+    .last-content-font {
+        font-size: 20px;
+        width: 400px;
+        text-align: left;
+    }
+
+    #contact-info-grid {
+        margin-left: -575px;
+        margin-top: 350px;
+    }
 
 }
